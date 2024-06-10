@@ -23,7 +23,6 @@ body {
   font-weight: 800;
 }
 
-
 .confirm {
   background: green;
   color: white;
@@ -37,7 +36,7 @@ div.text {
   font-weight: 100;
 }
 
-
+/* added .text class to override div.text with higher specificity */
 .text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
